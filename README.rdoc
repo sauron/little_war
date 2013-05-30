@@ -1,0 +1,9 @@
+== README
+
+Sample of a Cards game called "Little war"
+
+* Ruby version
+ruby-1.9.3-p392
+
+Built with Rails 4.0-rc1
+

@@ -10,7 +10,13 @@
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
+/db/*.csv
+/db/*.dat
+/db/*.yml
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+/bin
+/vendor/bundle
+config/database.yml
