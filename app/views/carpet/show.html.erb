@@ -1,0 +1,14 @@
+<section class="messages">
+  <%= flash[:alert] %>
+</section>
+<h1>Computer <%= @score[:computer] %></h1>
+<p>Cards left: <%= @computer.count %></p>
+<p><%= @computer.inspect %></p>
+
+<%= link_to "Fight", carpet_fight_path %>
+
+<h1>Player <%= @score[:player] %></h1>
+<p>Cards left: <%= @player.count %></p>
+<p><%= @player.inspect %></p>
+
+<%= link_to "quit", root_path %>
