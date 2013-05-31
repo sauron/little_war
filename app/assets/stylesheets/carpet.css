@@ -34,3 +34,95 @@ h1 {
   background-color: #F5F581;
   color: #000000;
 }
+
+ul { 
+  list-style-type:none;
+}
+
+ul li {
+  background: url('cards.svg') no-repeat;
+  background-color: #ffffff;
+  float: left;
+  height: 110px;
+  width: 50px;
+}
+
+ul li.card1a {
+  background-position: 0 0;
+}
+
+ul li.card1b {
+  background-position: 0 -110px;
+}
+
+ul li.card1c {
+  background-position: 0 -220px;
+}
+
+ul li.card1d {
+  background-position: 0 -330px;
+}
+
+ul li.card2a {
+  background-position: -72px 0;
+}
+
+ul li.card2b {
+  background-position: -72px -110px;
+}
+
+ul li.card2c {
+  background-position: -72px -220px;
+}
+
+ul li.card2d {
+  background-position: -72px -330px;
+}
+
+ul li.card3a {
+  background-position: -144px 0;
+}
+
+ul li.card3b {
+  background-position: -144px -110px;
+}
+
+ul li.card3c {
+  background-position: -144px -220px;
+}
+
+ul li.card3d {
+  background-position: -144px -330px;
+}
+
+ul li.card4a {
+  background-position: -216px 0;
+}
+
+ul li.card4b {
+  background-position: -216px -110px;
+}
+
+ul li.card4c {
+  background-position: -216px -220px;
+}
+
+ul li.card4d {
+  background-position: -216px -330px;
+}
+
+ul li.card5a {
+  background-position: -288px 0;
+}
+
+ul li.card5b {
+  background-position: -288px -110px;
+}
+
+ul li.card5c {
+  background-position: -288px -220px;
+}
+
+ul li.card5d {
+  background-position: -288px -330px;
+}
