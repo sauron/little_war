@@ -1,14 +1,13 @@
 <section class="messages">
   <%= flash[:alert] %>
 </section>
+
 <h1>Computer <%= @score[:computer] %></h1>
-<p>Cards left: <%= @computer.count %></p>
-<p><%= @computer.inspect %></p>
+<%= render 'cards', cards: @computer %>
 
 <%= link_to "fight", carpet_fight_path, class: "button" %>
 
 <h1>Player <%= @score[:player] %></h1>
-<p>Cards left: <%= @player.count %></p>
-<p><%= @player.inspect %></p>
+<%= render 'cards', cards: @player %>
 
 <%= link_to "quit", root_path, data: { no_turbolink: true } %>
