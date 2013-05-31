@@ -10,7 +10,8 @@ h1 {
   font-family: Arial;
   color: #ffffff;
   font-size: 30px;
-  padding: 20px;
+  padding: 15px;
+  margin: 5px;
   text-decoration: none;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -25,4 +26,11 @@ h1 {
 }
 .button:hover {
   background: #e62097;
+}
+
+.messages {
+  font-size: 15px;
+  padding: 5px;
+  background-color: #F5F581;
+  color: #000000;
 }
