@@ -10,21 +10,13 @@ class CarpetController < ApplicationController
   def fight
     @computer, @player, @score = load_values
 
-    computer_card = @computer.shift
-    player_card = @player.shift
-
-    case
-    when computer_card.to_i > player_card.to_i
-      flash.now[:alert] = "computer wins"
-      @score[:computer] = @score[:computer] + 1
-    when computer_card.to_i < player_card.to_i
-      flash.now[:alert] = "player wins"
-      @score[:player] = @score[:player] + 1
-    else
-      flash.now[:alert] = "tie"
+    if winner = Referee.new.evaluate(@computer.shift, @player.shift)
+      @score[winner] += 1
     end
 
+    flash.now[:alert] = winner.present? ? "#{winner.capitalize} wins" : "Tie"
     store_values(@computer, @player, @score)
+
     render :show
   end
 
