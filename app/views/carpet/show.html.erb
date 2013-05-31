@@ -5,10 +5,10 @@
 <p>Cards left: <%= @computer.count %></p>
 <p><%= @computer.inspect %></p>
 
-<%= link_to "Fight", carpet_fight_path %>
+<%= link_to "fight", carpet_fight_path, class: "button" %>
 
 <h1>Player <%= @score[:player] %></h1>
 <p>Cards left: <%= @player.count %></p>
 <p><%= @player.inspect %></p>
 
-<%= link_to "quit", root_path %>
+<%= link_to "quit", root_path, data: { no_turbolink: true } %>
