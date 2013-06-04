@@ -1,4 +1,4 @@
-class Baraja
+class Deck
   attr_reader :melds, :numbers
 
   def initialize(total_cards = 10, number_of_melds = 4)
@@ -14,7 +14,7 @@ class Baraja
     @numbers ||= (1..@total_cards).to_a
   end
 
-  def deck
+  def generate
      @deck ||= melds.map do |m|
         numbers.collect do |n|
           n.to_s + m

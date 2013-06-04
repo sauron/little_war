@@ -1,7 +1,7 @@
 class Croupier
 
   def deal
-    deck = Baraja.new.deck
+    deck = Deck.new.generate
 
     player_1_cards = deck.sample(20)
     player_2_cards = deck - player_1_cards
