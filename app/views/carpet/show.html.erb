@@ -2,13 +2,16 @@
   <%= flash[:alert] %>
 </section>
 
-
 <h1>Computer <%= @score[:computer] %></h1>
 <%= render 'cards', cards: @computer %>
 
-<%= link_to "fight", carpet_fight_path, class: "button" %>
+<div class="separator">
+  <%= link_to "fight", carpet_fight_path, class: "button" %>
+</div>
 
 <h1>Player <%= @score[:player] %></h1>
 <%= render 'cards', cards: @player %>
 
-<%= link_to "quit", root_path, data: { no_turbolink: true } %>
+<div class="separator">
+  <%= link_to "quit", root_path, data: { no_turbolink: true } %>
+</div>

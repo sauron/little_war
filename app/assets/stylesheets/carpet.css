@@ -35,7 +35,12 @@ h1 {
   color: #000000;
 }
 
-ul { 
+.separator {
+  clear: both;
+  padding-top: 30px;
+}
+
+ul {
   list-style-type:none;
 }
 
@@ -125,4 +130,132 @@ ul li.card5c {
 
 ul li.card5d {
   background-position: -288px -330px;
+}
+
+ul li.card6a {
+  background-position: -360px 0;
+}
+
+ul li.card6b {
+  background-position: -360px -110px;
+}
+
+ul li.card6c {
+  background-position: -360px -220px;
+}
+
+ul li.card6d {
+  background-position: -360px -330px;
+}
+
+ul li.card7a {
+  background-position: -432px 0;
+}
+
+ul li.card7b {
+  background-position: -432px -110px;
+}
+
+ul li.card7c {
+  background-position: -432px -220px;
+}
+
+ul li.card7d {
+  background-position: -432px -330px;
+}
+
+ul li.card8a {
+  background-position: -504px 0;
+}
+
+ul li.card8b {
+  background-position: -504px -110px;
+}
+
+ul li.card8c {
+  background-position: -504px -220px;
+}
+
+ul li.card8d {
+  background-position: -504px -330px;
+}
+
+ul li.card9a {
+  background-position: -576px 0;
+}
+
+ul li.card9b {
+  background-position: -576px -110px;
+}
+
+ul li.card9c {
+  background-position: -576px -220px;
+}
+
+ul li.card9d {
+  background-position: -576px -330px;
+}
+
+ul li.card10a {
+  background-position: -648px 0;
+}
+
+ul li.card10b {
+  background-position: -648px -110px;
+}
+
+ul li.card10c {
+  background-position: -648px -220px;
+}
+
+ul li.card10d {
+  background-position: -648px -330px;
+}
+
+ul li.card11a {
+  background-position: -720px 0;
+}
+
+ul li.card11b {
+  background-position: -720px -110px;
+}
+
+ul li.card11c {
+  background-position: -720px -220px;
+}
+
+ul li.card11d {
+  background-position: -720px -330px;
+}
+
+ul li.card12a {
+  background-position: -792px 0;
+}
+
+ul li.card12b {
+  background-position: -792px -110px;
+}
+
+ul li.card12c {
+  background-position: -792px -220px;
+}
+
+ul li.card12d {
+  background-position: -792px -330px;
+}
+
+ul li.card13a {
+  background-position: -864px 0;
+}
+
+ul li.card13b {
+  background-position: -864px -110px;
+}
+
+ul li.card13c {
+  background-position: -864px -220px;
+}
+
+ul li.card13d {
+  background-position: -864px -330px;
 }
