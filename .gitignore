@@ -18,9 +18,7 @@
 /log/*.log
 /log
 /tmp
-/bin
 /vendor/bundle
-config/database.yml
 
 /public/assets
 /public/system
